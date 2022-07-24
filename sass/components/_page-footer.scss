@@ -1,0 +1,33 @@
+.page-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--third-fon-color);
+}
+
+.page-footer__info {
+    display: flex;
+    align-items: baseline;
+}
+.page-footer__adress-list {
+    width: 223px;
+}
+
+.page-footer__social-link {
+    margin-left: 70px;
+    width: 206px;
+}
+
+.page-footer__title {
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    color: var(--white-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.page-footer__join {
+    margin-left: auto;
+    width: 570px;
+}

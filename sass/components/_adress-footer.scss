@@ -1,0 +1,21 @@
+.adress-list__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.adress-list__link {
+    color: var(--white-text-color);
+    font-style: normal;
+    text-decoration: none;
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.adress-list__link--grey {
+    color: var(--footer-adress-color);
+    font-style: normal;
+    text-decoration: none;
+    transition: color 250ms var(--cubic-bezier);
+}
+

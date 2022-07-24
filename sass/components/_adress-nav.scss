@@ -1,0 +1,37 @@
+.adress-nav {}
+
+.page-header__adress-nav {
+    display: flex;
+    margin-left: auto;
+}
+
+.adress-nav__item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.adress-nav__link {
+    display: flex;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    align-items: center;
+    transition: color 250ms var(--cubic-bezier);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.adress-nav__contacts {
+    display: flex;
+    margin-right: 10px;
+    fill: currentColor;
+}
